@@ -2,7 +2,7 @@ Para instalar pega esto en la consola de termux
 
 ---
 
-git clone git clone https://github.com/Arahnose21x/Termux_essentials.git && cd Termux_essentials.git && bash instalador.sh
+git clone https://github.com/Arahnose21x/Termux_essentials.git && cd Termux_essentials.git && bash instalador.sh
 
 ---
 
