@@ -12,4 +12,4 @@ Se instalo:
 -Python (Si es que lo requieres)
 -Micro (Para más comodidad)
 
-git clone https://github.com/Arahnose21x/Termux_essentials.git && cd termux_essentials && bash Utilidades.sh
+git clone https://github.com/Arahnose21x/Termux_essentials.git && cd termux_essentials && bash instalador.sh
