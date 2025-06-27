@@ -1,5 +1,8 @@
 #!/bin/bash
 
+pkg install root-repo
+pkg install proot-repo
+
 echo "Actualizando"
 pkg update -y && pkg upgrade -y
 
@@ -65,5 +68,5 @@ chmod +x ~/.vnc/xstartup
 echo "Para iniciar el entorno gráfico usa:
 vncserver :1" 
 echo "Luego conecta con tu app VNC Viewer a localhost:1"
-echo "Listo pa"
+echo "Listo pa, si querés otra distro pon proot-distro list y seguí las instrucciones"
 neofetch
