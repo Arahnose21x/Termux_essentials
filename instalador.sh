@@ -22,7 +22,7 @@ pkg install -y r-base
 pkg install -y lua
 pkg install -y mono     
 
-echo "🧰 Instalando herramientas de red y ciberseguridad..."
+echo "Instalando herramientas de hacking" 
 pkg install -y nmap
 pkg install -y hydra
 pkg install -y sqlmap
@@ -44,5 +44,26 @@ pkg install -y metasploit
 echo "Instalando Micro (editor de texto)" 
 pkg install -y micro
 
+echo "Instalando entorno gráfico XFCE con VNC" 
+
+pkg install -y x11-repo
+
+pkg install -y tigervnc
+pkg install -y xfce4
+
+echo "Configurando VNC" 
+
+mkdir -p ~/.vnc
+
+cat > ~/.vnc/xstartup << EOF
+#!/data/data/com.termux/files/usr/bin/sh
+xfce4-session &
+EOF
+
+chmod +x ~/.vnc/xstartup
+
+echo "Para iniciar el entorno gráfico usa:
+vncserver :1" 
+echo "Luego conecta con tu app VNC Viewer a localhost:1"
 echo "Listo pa"
 neofetch
