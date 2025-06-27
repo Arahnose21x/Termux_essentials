@@ -1,23 +1,8 @@
-Para instalar pega esto en la consola de termux (o descarga instalador.sh y ejecuta lo) 
+Para instalar X11, proot-distro, root-repo esto en la consola de termux, para instalar todo lo demás es instalador.sh
 
 ---
 
-#Instalar git
-pkg install git
-#instalar python
-pkg install python
-#instalar micro
-pkg install micro
-
-echo "
-Se instalo:
-
--Git (Nesesario para copiar la repo)
--Python (Si es que lo requieres)
--Micro (Para más comodidad)
-
-git clone https://github.com/Arahnose21x/Termux_essentials.git && cd termux_essentials && bash Utilidades.sh
-
+pkg install X11
 ---
 
 Todo lo extra se encuentra en la carpeta Termux-essentials-others-
