@@ -6,3 +6,4 @@ pkg install nodejs
 pkg install openjdk-17
 plg install golang
 pkg install rust
+git clone https://github.com/Arahnose21x/SSP.git
