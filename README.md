@@ -4,7 +4,7 @@ Para instalar X11, proot-distro, root-repo esto en la consola de termux, para in
 
 pkg install X11-repo
 pkg install root-repo
-pkg install proot-repo
+pkg install proot-distro
 
 ---
 
